@@ -1,0 +1,13 @@
+.places__text {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .places__text  {
+   font-size: 16px;
+  }
+}
