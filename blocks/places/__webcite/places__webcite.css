@@ -3,3 +3,10 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media (max-width: 425px) {
+  .places__webcite   {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+}

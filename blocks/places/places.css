@@ -3,7 +3,7 @@
   margin: 92px auto;
 }
 
-@media (max-width: 1024px) {
+ @media (max-width: 1024px) {
   .places {
     max-width: 928px;
     padding-left: 48px;
@@ -20,10 +20,17 @@
   }
 }
 
-@media (max-width: 605px) {
+@media (max-width: 620px) {
   .places {
-    max-width: 320px;
+    max-width: calc(620px - 16px*2);
     padding-left: 16px;
     padding-right: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .places {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
